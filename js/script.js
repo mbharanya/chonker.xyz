@@ -1,4 +1,4 @@
-var subreddits = ['chungus'];
+var subreddits = ['chonkers'];
 
 let images = [];
 
@@ -33,5 +33,5 @@ var refreshImage = function () {
 
 function failedLoading() {
 	console.log("failed to open images, displaying default");
-	document.querySelector('#random-image').src = 'chungus.jpg'
+	document.querySelector('#random-image').src = 'http://vivacatcat.com/wp-content/uploads/2019/04/1554445818_My-gf-snapped-this-pic-of-our-chonker-and-I-absolutely-love-it.jpg'
 }
