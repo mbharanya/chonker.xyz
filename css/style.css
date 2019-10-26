@@ -3,8 +3,9 @@ body {
     height: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: black;
-    color: #fc4605;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a2/Jack-o%27-Lantern_2003-10-31.jpg");
+    color: white;
+    text-shadow: 1px 1px 5px black;
 }
 
 article {
@@ -21,14 +22,14 @@ header {
 }
 
 header>h1 {
-    font-weight: 100;
+    font-weight: 200;
     font-size: 50pt;
     margin-bottom: 10px;
     margin-top: 0px;
 }
 
 h2 {
-    font-weight: 100;
+    font-weight: 200;
     text-align: center;
 }
 
@@ -38,7 +39,6 @@ main {
 
 .image-wrapper {
     padding: 1rem;
-    box-shadow: 0 0 20px black;
 }
 
 footer {
@@ -53,4 +53,14 @@ img#random-image {
 
 img.skeleton {
     width: 5rem;
+}
+
+.rotate {
+    animation: spin 6s infinite linear;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
 }
